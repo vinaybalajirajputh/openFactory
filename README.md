@@ -1,5 +1,5 @@
 # OpenFactory
-![CI Build](https://api.travis-ci.com/Spide85/openFactory.svg?branch=master)
+[![Build Status](https://travis-ci.com/Spide85/openFactory.svg?branch=master)](https://travis-ci.com/Spide85/openFactory)
 
 A clone of the beautiful game Factorio.
 
