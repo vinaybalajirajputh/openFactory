@@ -1,5 +1,6 @@
 # OpenFactory
 ![CI Build](https://api.travis-ci.com/Spide85/openFactory.svg?branch=master)
+
 A clone of the beautiful game Factorio.
 
 To build the project, python3 is required (In PATH, the script folder needs to be in PATH too).
