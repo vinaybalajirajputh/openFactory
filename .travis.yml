@@ -1,10 +1,8 @@
 language: c++
 dist: bionic
-python:
-- "3.6"
 compiler: clang
 before_install:
-- sudo apt-get install -y libsdl2-dev
+- sudo apt-get install -y libsdl2-dev python3
 - sudo pip install conan meson
 script:
 - cd conan
