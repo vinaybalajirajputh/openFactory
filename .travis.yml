@@ -2,6 +2,7 @@ language: c++
 dist: bionic
 compiler: clang
 before_install:
+- pyenv global system 3.6
 - sudo apt-get install -y libsdl2-dev python3
 - sudo pip install conan meson
 script:
