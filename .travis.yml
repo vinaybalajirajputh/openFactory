@@ -9,5 +9,5 @@ script:
 - cd conan
 - ./install.sh
 - cd ../build
-- DESTDIR=${TRAVIS_BUILD_DIR}/install
-- ninja install
+- echo ${TRAVIS_BUILD_DIR}/install
+- ninja install DESTDIR=${TRAVIS_BUILD_DIR}/install
