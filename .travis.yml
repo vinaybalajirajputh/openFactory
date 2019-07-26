@@ -8,3 +8,6 @@ before_install:
 script:
 - cd conan
 - ./install.sh
+- cd ../build
+- DESTDIR=$TRAVIS_BUILD_DIR/install
+- ninja install
