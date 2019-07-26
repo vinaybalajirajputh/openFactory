@@ -3,7 +3,7 @@ dist: bionic
 compiler: clang
 before_install:
 - pyenv global system 3.6.7
-- sudo apt-get install -y libsdl2-dev python3 python3-pip python3-setuptools libboost-dev
+- sudo apt-get install -y libsdl2-dev python3 python3-pip python3-setuptools libboost-dev ninja
 - pip3 install conan meson
 script:
 - cd conan
