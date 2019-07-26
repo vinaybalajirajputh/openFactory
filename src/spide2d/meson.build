@@ -14,7 +14,6 @@ libspide2d = static_library('spide2d',
         eigen,
         spdlog,
         sdl2,
-        opengl,
         glad_dependency,
         libdl,
         boost
