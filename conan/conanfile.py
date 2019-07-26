@@ -8,7 +8,7 @@ class OpenFactoryConan(ConanFile):
         "eigen/3.3.7@conan/stable",
         "fmt/5.3.0@bincrafters/stable",
         "spdlog/1.3.1@bincrafters/stable",
-        "sdl2/[~=2.0]@bincrafters/stable",
+        # "sdl2/[~=2.0]@bincrafters/stable",  handled via system
         "boost/1.70.0@conan/stable",
     ]
 

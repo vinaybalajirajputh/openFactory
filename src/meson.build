@@ -2,7 +2,7 @@ project('OpenFactory', ['cpp', 'c'], default_options : ['cpp_std=c++17'])
 
 eigen = dependency('eigen')
 spdlog = dependency('spdlog')
-sdl2 = dependency('sdl2', method : 'pkg-config')
+sdl2 = dependency('sdl2')
 boost = dependency('boost')
 
 
