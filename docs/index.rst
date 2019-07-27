@@ -6,9 +6,12 @@
 Welcome to openFactory's documentation!
 =======================================
 
+Source available at `Github <https://github.com/Spide85/openFactory>`_
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
+
 
 
 
