@@ -13,18 +13,6 @@ Source available at `Github <https://github.com/Spide85/openFactory>`_
    :caption: Contents:
 
 
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
-jojo
-====
-
 .. toctree::
    :maxdepth: 2
 

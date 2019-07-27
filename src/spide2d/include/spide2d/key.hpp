@@ -10,7 +10,7 @@ struct key {
     [[nodiscard]] std::string human_readable() const;
 
     /**
-     * @brief
+     * @brief Creates a key corresponding to #key_name.
      *
      */
     [[nodiscard]] static key create_from_human_readable(std::string_view key_name);
