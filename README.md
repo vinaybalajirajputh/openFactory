@@ -1,5 +1,6 @@
 # OpenFactory
-[![Build Status](https://travis-ci.com/Spide85/openFactory.svg?branch=master)](https://travis-ci.com/Spide85/openFactory)
+[![Travis (.com)](https://img.shields.io/travis/com/Spide85/openFactory?style=for-the-badge)](https://travis-ci.com/Spide85/openFactory)
+![Read the Docs](https://img.shields.io/readthedocs/openfactory?style=for-the-badge)
 
 A clone of the beautiful game Factorio.
 
