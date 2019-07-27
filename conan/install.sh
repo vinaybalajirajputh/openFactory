@@ -9,4 +9,4 @@ cd ../src
 export PKG_CONFIG_PATH=$(realpath ../build/)
 export BOOST_ROOT=$(pkg-config --variable=prefix boost)
 meson ../build
-ln -sf build/compile_commands.json compile_commands.json
+ln -sf ../build/compile_commands.json compile_commands.json

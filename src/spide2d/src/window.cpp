@@ -2,6 +2,6 @@
 
 namespace spide2d {
 
-window::window(const int width, const int height, hotkeys h) : hotkeys_(std::move(h)) {}
+window::window(const int width, const int height) {}
 
 }  // namespace spide2d

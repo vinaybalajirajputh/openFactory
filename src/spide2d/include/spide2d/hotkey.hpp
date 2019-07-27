@@ -1,11 +1,11 @@
 #pragma once
-#include <SDL2/SDL_events.h>
+
 #include <map>
 #include <string_view>
 
 namespace spide2d {
 
-struct hotkeys {
+struct hotkey {
     // std::string_view translate(const SDL_Keysym &sym);
 
     // void add(SDL_Keysym sym, std::string_view hotkey);

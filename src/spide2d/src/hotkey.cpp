@@ -1,4 +1,4 @@
-#include <spide2d/hotkeys.hpp>
+#include <spide2d/hotkey.hpp>
 
 namespace spide2d {
 /*

@@ -28,6 +28,16 @@ libdl = cc.find_library('dl')
 
 subdir('spide2d')
 
+##### Doxygen #####
+
+doxygen = find_program('doxygen', required : false)
+if doxygen.found()
+    message('Doxygen found: ' + meson.source_root() + '/../doc/Doxyfile')
+    run_target('docs', command : [doxygen, meson.source_root() + '/../doc/Doxyfile'])    
+else
+    warning('Documentation disabled without doxygen')
+endif
+
 ##### Executable #####
 
 executable(
