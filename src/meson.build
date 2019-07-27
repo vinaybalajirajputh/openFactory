@@ -32,11 +32,12 @@ subdir('spide2d')
 
 doxygen = find_program('doxygen', required : false)
 if doxygen.found()
-    message('Doxygen found: ' + meson.source_root() + '/../doc/Doxyfile')
-    run_target('docs', command : [doxygen, meson.source_root() + '/../doc/Doxyfile'])    
+    message('Doxygen found: ' + meson.source_root() + '/../docs/Doxyfile')
+    run_target('docs', command : [doxygen, meson.source_root() + '/../docs/Doxyfile'])    
 else
     warning('Documentation disabled without doxygen')
 endif
+
 
 ##### Executable #####
 

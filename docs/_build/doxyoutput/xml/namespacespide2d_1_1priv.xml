@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="namespacespide2d_1_1priv" kind="namespace" language="C++">
+    <compoundname>spide2d::priv</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="sdlwindow_8cpp_1a520326827eb671a9af0667c65b820494" prot="public" static="no" mutable="no">
+        <type>boost::asio::io_context</type>
+        <definition>boost::asio::io_context spide2d::priv::gl_context</definition>
+        <argsstring></argsstring>
+        <name>gl_context</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/spide2d/src/backend_sdl/sdlwindow.cpp" line="16" column="1" bodyfile="src/spide2d/src/backend_sdl/sdlwindow.cpp" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="sdlwindow_8cpp_1a0ed78a635ef22567f9102c9eb2081a20" prot="public" static="no" mutable="no">
+        <type>boost::asio::io_context</type>
+        <definition>boost::asio::io_context spide2d::priv::worker_context</definition>
+        <argsstring></argsstring>
+        <name>worker_context</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/spide2d/src/backend_sdl/sdlwindow.cpp" line="16" column="1" bodyfile="src/spide2d/src/backend_sdl/sdlwindow.cpp" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="sdlwindow_8cpp_1a714c3128b7df9cb96efcdfa10cfe4aec" prot="public" static="no" mutable="no">
+        <type>auto</type>
+        <definition>auto spide2d::priv::gl_work_guard</definition>
+        <argsstring></argsstring>
+        <name>gl_work_guard</name>
+        <initializer>= boost::asio::make_work_guard(gl_context)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/spide2d/src/backend_sdl/sdlwindow.cpp" line="17" column="1" bodyfile="src/spide2d/src/backend_sdl/sdlwindow.cpp" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/spide2d/src/backend_sdl/sdlwindow.cpp" line="15" column="1"/>
+  </compounddef>
+</doxygen>

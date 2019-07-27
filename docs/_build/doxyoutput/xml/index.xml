@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.15">
+  <compound refid="structspide2d_1_1hotkey" kind="struct"><name>spide2d::hotkey</name>
+  </compound>
+  <compound refid="structspide2d_1_1key" kind="struct"><name>spide2d::key</name>
+    <member refid="structspide2d_1_1key_1ab6a3535fffaa322e52e97746768f8860" kind="function"><name>human_readable</name></member>
+    <member refid="structspide2d_1_1key_1ab05ea794b3a46962d1e1c715549ca65d" kind="function"><name>create_from_human_readable</name></member>
+    <member refid="structspide2d_1_1key_1aef831987447b5225d9c7b4fda67916c1" kind="function"><name>key</name></member>
+  </compound>
+  <compound refid="structspide2d_1_1sdl__exception" kind="struct"><name>spide2d::sdl_exception</name>
+    <member refid="structspide2d_1_1sdl__exception_1af99ad14adcd293911acfee8b28c6a2d5" kind="function"><name>sdl_exception</name></member>
+  </compound>
+  <compound refid="structspide2d_1_1sdl__window" kind="struct"><name>spide2d::sdl_window</name>
+    <member refid="structspide2d_1_1sdl__window_1a86911f9039b6d1774a864eadd1123173" kind="variable"><name>gl_thread_</name></member>
+    <member refid="structspide2d_1_1sdl__window_1ad333267b7c185c78b6fb99a671886629" kind="function"><name>sdl_window</name></member>
+    <member refid="structspide2d_1_1sdl__window_1a1090780414b9be32d193ff1bb4b39936" kind="function"><name>init_sdl</name></member>
+    <member refid="structspide2d_1_1sdl__window_1a54bad260e225799fc200ee630fc91f52" kind="function"><name>start_gl_thread</name></member>
+    <member refid="structspide2d_1_1sdl__window_1ae77b878461732642ad32c8280079407d" kind="function"><name>dispatch_sdl_events</name></member>
+  </compound>
+  <compound refid="structspide2d_1_1window" kind="struct"><name>spide2d::window</name>
+    <member refid="structspide2d_1_1window_1aec309ed8e34fb7a9672dda3a8d314c36" kind="variable"><name>key_pressed</name></member>
+    <member refid="structspide2d_1_1window_1a6e18d100ab511e021b3304ba816b9b89" kind="variable"><name>key_released</name></member>
+    <member refid="structspide2d_1_1window_1a729bfb0ac2cf4b437d4447ccef12abf9" kind="function"><name>window</name></member>
+  </compound>
+  <compound refid="namespacespide2d" kind="namespace"><name>spide2d</name>
+  </compound>
+  <compound refid="namespacespide2d_1_1priv" kind="namespace"><name>spide2d::priv</name>
+    <member refid="sdlwindow_8cpp_1a520326827eb671a9af0667c65b820494" kind="variable"><name>gl_context</name></member>
+    <member refid="sdlwindow_8cpp_1a0ed78a635ef22567f9102c9eb2081a20" kind="variable"><name>worker_context</name></member>
+    <member refid="sdlwindow_8cpp_1a714c3128b7df9cb96efcdfa10cfe4aec" kind="variable"><name>gl_work_guard</name></member>
+  </compound>
+  <compound refid="hotkey_8hpp" kind="file"><name>hotkey.hpp</name>
+  </compound>
+  <compound refid="key_8hpp" kind="file"><name>key.hpp</name>
+  </compound>
+  <compound refid="window_8hpp" kind="file"><name>window.hpp</name>
+  </compound>
+  <compound refid="sdlwindow_8cpp" kind="file"><name>sdlwindow.cpp</name>
+  </compound>
+  <compound refid="sdlwindow_8hpp" kind="file"><name>sdlwindow.hpp</name>
+  </compound>
+  <compound refid="hotkey_8cpp" kind="file"><name>hotkey.cpp</name>
+  </compound>
+  <compound refid="window_8cpp" kind="file"><name>window.cpp</name>
+  </compound>
+  <compound refid="dir_d6cbaeea444dac8cc1fced4cbda194d3" kind="dir"><name>src/spide2d/src/backend_sdl</name>
+  </compound>
+  <compound refid="dir_0358b5aecc188aee167d76c169724de0" kind="dir"><name>src/spide2d/include</name>
+  </compound>
+  <compound refid="dir_9031032ad6aa03fd32fbb1bb658f80aa" kind="dir"><name>src/spide2d/include/spide2d</name>
+  </compound>
+  <compound refid="dir_ef289da1e161f44845015815229cc45f" kind="dir"><name>src/spide2d</name>
+  </compound>
+  <compound refid="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir"><name>src</name>
+  </compound>
+  <compound refid="dir_8d030054c0f367cc6a1d20e33881d0de" kind="dir"><name>src/spide2d/src</name>
+  </compound>
+</doxygenindex>

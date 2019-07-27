@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="namespacespide2d" kind="namespace" language="C++">
+    <compoundname>spide2d</compoundname>
+    <innerclass refid="structspide2d_1_1hotkey" prot="public">spide2d::hotkey</innerclass>
+    <innerclass refid="structspide2d_1_1key" prot="public">spide2d::key</innerclass>
+    <innerclass refid="structspide2d_1_1sdl__exception" prot="public">spide2d::sdl_exception</innerclass>
+    <innerclass refid="structspide2d_1_1sdl__window" prot="public">spide2d::sdl_window</innerclass>
+    <innerclass refid="structspide2d_1_1window" prot="public">spide2d::window</innerclass>
+    <innernamespace refid="namespacespide2d_1_1priv">spide2d::priv</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/spide2d/include/spide2d/hotkey.hpp" line="6" column="1"/>
+  </compounddef>
+</doxygen>

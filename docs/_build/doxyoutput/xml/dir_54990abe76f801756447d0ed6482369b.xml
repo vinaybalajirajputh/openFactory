@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="dir_54990abe76f801756447d0ed6482369b" kind="dir">
+    <compoundname>spide2d/include</compoundname>
+    <innerdir refid="dir_df4a433e3f3b4390bdfbc53736fda7ef">spide2d/include/spide2d</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="spide2d/include/"/>
+  </compounddef>
+</doxygen>

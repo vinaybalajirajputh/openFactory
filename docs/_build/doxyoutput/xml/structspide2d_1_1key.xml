@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structspide2d_1_1key" kind="struct" language="C++" prot="public">
+    <compoundname>spide2d::key</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structspide2d_1_1key_1ab6a3535fffaa322e52e97746768f8860" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string spide2d::key::human_readable</definition>
+        <argsstring>() const</argsstring>
+        <name>human_readable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a human readable string representation of this key. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/spide2d/include/spide2d/key.hpp" line="10" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structspide2d_1_1key_1ab05ea794b3a46962d1e1c715549ca65d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structspide2d_1_1key" kindref="compound">key</ref></type>
+        <definition>static key spide2d::key::create_from_human_readable</definition>
+        <argsstring>(std::string_view key_name)</argsstring>
+        <name>create_from_human_readable</name>
+        <param>
+          <type>std::string_view</type>
+          <declname>key_name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/spide2d/include/spide2d/key.hpp" line="16" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="structspide2d_1_1key_1aef831987447b5225d9c7b4fda67916c1" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>spide2d::key::key</definition>
+        <argsstring>()=default</argsstring>
+        <name>key</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/spide2d/include/spide2d/key.hpp" line="19" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/spide2d/include/spide2d/key.hpp" line="6" column="1" bodyfile="src/spide2d/include/spide2d/key.hpp" bodystart="6" bodyend="20"/>
+    <listofallmembers>
+      <member refid="structspide2d_1_1key_1ab05ea794b3a46962d1e1c715549ca65d" prot="public" virt="non-virtual"><scope>spide2d::key</scope><name>create_from_human_readable</name></member>
+      <member refid="structspide2d_1_1key_1ab6a3535fffaa322e52e97746768f8860" prot="public" virt="non-virtual"><scope>spide2d::key</scope><name>human_readable</name></member>
+      <member refid="structspide2d_1_1key_1aef831987447b5225d9c7b4fda67916c1" prot="private" virt="non-virtual"><scope>spide2d::key</scope><name>key</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

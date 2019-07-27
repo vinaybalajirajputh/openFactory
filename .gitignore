@@ -3,6 +3,10 @@ build
 install
 .vscode
 
+# docs
+./docs/_build
+./docs/api
+
 # Prerequisites
 *.d
 

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="dir_31f5393954e152a79e9d17a870cab665" kind="dir">
+    <compoundname>spide2d/src</compoundname>
+    <innerdir refid="dir_fabd54a9956e0bff6713cfcc3ec9c933">spide2d/src/backend_sdl</innerdir>
+    <innerfile refid="hotkey_8cpp">hotkey.cpp</innerfile>
+    <innerfile refid="window_8cpp">window.cpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="spide2d/src/"/>
+  </compounddef>
+</doxygen>
